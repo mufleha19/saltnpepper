@@ -1,0 +1,26 @@
+/* .h1 {
+    background-image: url("images/logo.gif");
+    background-repeat: no-repeat;
+    text-indent: -9999px;}
+
+
+    .credits {
+    text-indent: 20px;} */
+
+    /* p {
+        text-indent: 30px; /* Indents the first line of the paragraph by 30 pixels */
+      
+      
+      /* .hidden-text {
+        text-indent: -9999px; /* Moves the text far to the left, off the screen */
+         /* Normal indentation */
+  p {
+    text-indent: 20px; /* The first line of this paragraph will be indented by 20px */
+  }
+
+  /* Text pushed out of view */
+  .off-screen-text {
+    text-indent: -9999px; /* Moves the text far to the left, so it's not visible */
+    overflow: hidden; /* Ensures the hidden text doesn’t cause scroll bars */
+  }
+      

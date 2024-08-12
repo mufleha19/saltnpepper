@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=butler|apercu|futurabook&display=swap');
+
+body{
+    color:#FFFFFF;
+    background-color:#000000;
+    color:#FFFFFF;
+    background-color:#000000;
+font-size: 14px;
+font-weight: 300;
+font-family: apercu;
+line-height: 24px
+}
+
+
+.header-navbar-1 {
+    background-color: #000000;
+}
+
+.carousel-inner {overflow: hidden}
+
+.navbar {margin-bottom: 0; padding: 5px 0;}
+
+ul{margin: 0; padding: 0; list-style-type:none}
+
+a:hover{text-decoration: none}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{margin: 0; }
+
+  p{margin-bottom: 0;}
+
+a{text-decoration: none; }
+
+figure{margin: 0}
+
+h2 {
+    font-size: px;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: butler; 
+  margin-bottom: 40px;
+  font-weight: normal !important;
+}
+
+.nav-item{
+    margin: 0px 15px 0px 10px;
+}
+
+.navbar-toggler{
+
+}
+
+.navbar-nav li.active a{color: #FFFFFF}
+
+.navbar-brand{
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    }
+
+    .sideBarActive{
+        font-weight: bold !important;
+        width: 100%;
+        height: 100%;
+        border-top: 0 !important;
+        border-bottom: 0 !important;
+        border-right: 0 !important;
+        }
+        .home-btn-section-holder ul li{
+            margin-bottom:25px;
+            display: grid;
+            }
+            .hom-btn-section-holder {
+            margin-top: 30px;
+            }
+
+            .menu-sidebar {
+                margin: 75px 0 80px 35px;
+                position: relative;
+                top: 30px;
+                }
+                .menu-sidebar li {
+                padding: 10px 10px 0;
+                list-style: none;
+                
+                }
+                .menu-sidebar li > a {
+                color: #FFFFFF;
+                font-size: 1.18em;
+                text-transform: capitalize;
+                position: relative;
+                text-decoration: none;
+                }
+                .menu-sidebar li > a::after {
+                content: "";
+                display: block;
+                height: 0.15em;
+                position: absolute;
+                top: 100%;
+                width: 100%;
+                left: 50%;
+                transform: translate(-50%);
+                background-image: linear-gradient(to right, transparent 50.3%, #ED1C24 50.3%);
+                transition: background-position .2s .1s ease-out;
+                background-size: 200% auto;
+                }
+                .menu-sidebar li > a:hover::after {
+                background-position: -100% 0;
+                }
+                .menu-sidebar .menu-item-has-children {
+                position: relative;
+                }
+                .menu-sidebar .menu-item-has-children .sub-menu {
+                display: none;
+                }            
+
+                .menu-sidebar {
+                    margin: 75px 0 80px 35px;
+                    position: relative;
+                    top: 30px;
+                    }
+                    .menu-sidebar li {
+                    padding: 10px 10px 0;
+                    list-style: none;
+                    
+                    }
+                    .menu-sidebar li > a {
+                    color: #FFFFFF;
+                    font-size: 1.18em;
+                    text-transform: capitalize;
+                    position: relative;
+                    text-decoration: none;
+                    }
+                    .menu-sidebar li > a::after {
+                    content: "";
+                    display: block;
+                    height: 0.15em;
+                    position: absolute;
+                    top: 100%;
+                    width: 100%;
+                    left: 50%;
+                    transform: translate(-50%);
+                    background-image: linear-gradient(to right, transparent 50.3%, #ED1C24 50.3%);
+                    transition: background-position .2s .1s ease-out;
+                    background-size: 200% auto;
+                    }
+                    .menu-sidebar li > a:hover::after {
+                    background-position: -100% 0;
+                    }
+                    .menu-sidebar .menu-item-has-children {
+                    position: relative;
+                    }
+                    .menu-sidebar .menu-item-has-children .sub-menu {
+                    display: none;
+                    }
+
+                    .header_nav_bar_0 {
+                        display: none !important;
+                    }
+
+                    #sidebarCollapse {
+                        color: #fff !important;
+                    }
+
+                    .nav-link {
+                        font-size: 14px !important;
+                        padding: 8px 10px !important;
+                        color: #fff;
+                    }
